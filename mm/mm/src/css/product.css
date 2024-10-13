@@ -1,0 +1,32 @@
+
+
+.menubar {
+    width: 90%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+  
+  }
+  
+  .menubar > ul {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+  
+  .menubar > ul > li {
+    display: inline-block;
+    margin: 20px 5%;
+    width: 20%;
+    height: 250px;
+    border: black 1px solid;
+    text-decoration-line: none;
+  }
+  
+  .menubar > ul > li > a {
+    color: black;
+    text-decoration-line: none;
+  }
+

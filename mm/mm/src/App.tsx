@@ -2,10 +2,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Join from './pages/Join';
-import Products from './pages/Products';
+import Board from './pages/Board';
+import UserInfo from './pages/UserInfo';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Product from './pages/Product';
 
 const App: React.FC = () => {
   return (
@@ -14,8 +15,9 @@ const App: React.FC = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/join" element={<Join />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/board" element={<Board />} />
+          <Route path="/userInfo" element={<UserInfo />} />
         </Routes>
       </main>
       <Footer />

@@ -1,0 +1,103 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header {
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.mainlogo {
+  background-position: left;
+  height: 5%;
+  width: 3%;
+}
+
+.nav-middle {
+  margin-top: auto;
+  margin-left: auto;
+  font-size: 20px;
+  color: black;
+ 
+}
+
+.nav-middle > a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.nav-head {
+  width: 100%;
+  display: flex;
+  color: white;
+  margin: auto;
+  padding: 0;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+
+.nav-head > ul {
+  
+  list-style-type: none;
+  color: black;
+  margin-left: auto;
+
+}
+
+.nav-head > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-head > ul > li > a {
+  text-decoration-line: none;
+  color: black;
+}

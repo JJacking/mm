@@ -16,7 +16,7 @@ const Header = () => {
                 <Link to="/">애견용품점</Link>
             </div>
             <ul>
-                <li><Link to="/home">애견용품</Link></li>
+                <li><Link to="/product">애견용품</Link></li>
                 <li><Link to="/board">커뮤니티</Link></li>
                 <li><Link to="/UserInfo">내정보</Link></li>
             </ul>
